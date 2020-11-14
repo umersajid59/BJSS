@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.bjss.basketTest.aplicationTest, org.scalatest.tools.Framework$$anon$1@2f64a381, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32maplicationTest:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return zero for items like Water gum shoes[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 4 for items like milk soup bread Apple[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 2 for Milk entered two times[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should total should be 4.10 given bucket[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should total should be 3.90 given bucket[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 255 milliseconds.[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	com.bjss.basketTest.aplicationTest[0m[0J
