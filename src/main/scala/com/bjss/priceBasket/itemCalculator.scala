@@ -11,7 +11,7 @@ object itemCalculator {
     val basket = new Basket()
     val basketCheck =  basket.checkItem(basketItems)
     if(basketCheck.size ==0){
-      println("no items added to basket\nthat are availble in inventory")
+      println("no items added to basket\nthat are available in inventory")
       System.exit(0)
     }
     val finalList =  basket.countItems(basketCheck)

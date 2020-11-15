@@ -1,6 +1,32 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 4 products, 3 sources, 1 libraries[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/com/bjss/basketTest/Basket.scala, ${BASE}/src/main/scala/com/bjss/basketTest/CheckDiscout.scala, ${BASE}/src/main/scala/com/bjss/basketTest/itemCalculator.scala)[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/com/bjss/priceBasket/Basket.scala, ${BASE}/src/main/scala/com/bjss/priceBasket/CheckDiscout.scala, ${BASE}/src/main/scala/com/bjss/priceBasket/itemCalculator.scala)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/com/bjss/priceBasket/CheckDiscout.scala, ${BASE}/src/main/scala/com/bjss/priceBasket/Basket.scala, ${BASE}/src/main/scala/com/bjss/priceBasket/itemCalculator.scala), removed = Set(${BASE}/src/main/scala/com/bjss/basketTest/Basket.scala, ${BASE}/src/main/scala/com/bjss/basketTest/CheckDiscout.scala, ${BASE}/src/main/scala/com/bjss/basketTest/itemCalculator.scala), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set(${BASE}/src/main/scala/com/bjss/basketTest/Basket.scala, ${BASE}/src/main/scala/com/bjss/basketTest/CheckDiscout.scala, ${BASE}/src/main/scala/com/bjss/basketTest/itemCalculator.scala)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(${BASE}/src/main/scala/com/bjss/priceBasket/CheckDiscout.scala, ${BASE}/src/main/scala/com/bjss/priceBasket/Basket.scala, ${BASE}/src/main/scala/com/bjss/priceBasket/itemCalculator.scala)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(com.bjss.basketTest.Basket, com.bjss.basketTest.CheckDiscout, com.bjss.basketTest.itemCalculator)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mall 3 sources are invalidated[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: com.bjss.basketTest.Basket, com.bjss.basketTest.CheckDiscout, com.bjss.basketTest.itemCalculator[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\games\gitRepo\BJSS\target\scala-2.12\classes ...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.4.2:compile for Scala 2.12.3[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 2b95cb55 for Scala compiler version 2.12.3[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes;C:\Users\umers\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.3\scala-library-2.12.3.jar[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	C:\games\gitRepo\BJSS\target\scala-2.12\classes[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 7.1374371 s[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m[0J

@@ -5,4 +5,6 @@ jar is complied using sbtplugin assembly
 
 to run the jar file
 
-simply run java -jar **jar file provided** basket-items
+to run java -jar **<jar file>** *<item(1)>* *<item(2)>* *<item(n)>*
+
+Example: java -jar PriceBasket Apples soup Milk Bread
