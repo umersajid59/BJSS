@@ -1,4 +1,4 @@
-package com.bjss.basketTest
+package com.bjss.priceBasket
 
 class CheckDiscout(finalList: Map[String, (Int,Double)], totalPrice: Double) {
   def applyDiscount : (String,Double) ={

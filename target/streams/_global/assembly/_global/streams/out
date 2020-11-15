@@ -4,17 +4,17 @@
 [0m[[0m[0mdebug[0m] [0m[0mMerging files...[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF\MANIFEST.MF' with strategy 'discard'[0m[0J
 [0m[[0m[0minfo[0m] [0m[0mStrategy 'discard' was applied to a file (Run the task at debug level to see details)[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mSHA-1: 2a1d1496210246c109d776d88fc6c21a5a83a21f[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mSHA-1: ab7120debe7d6d7a060ecab2a096e094f119fb07[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mPackaging C:\games\gitRepo\BJSS\target\scala-2.12\PriceBasket-assembly-0.1.0-SNAPSHOT.jar ...[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	com\bjss\basketTest\Basket.class[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\games\gitRepo\BJSS\target\streams\_global\assemblyOption\_global\streams\assembly\730d277e6cd0aeca0a54b9a7212f71df3e984b5b_dir\com\bjss\basketTest\Basket.class[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	com\bjss\basketTest\CheckDiscout.class[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\games\gitRepo\BJSS\target\streams\_global\assemblyOption\_global\streams\assembly\730d277e6cd0aeca0a54b9a7212f71df3e984b5b_dir\com\bjss\basketTest\CheckDiscout.class[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	com\bjss\basketTest\itemCalculator$.class[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\games\gitRepo\BJSS\target\streams\_global\assemblyOption\_global\streams\assembly\730d277e6cd0aeca0a54b9a7212f71df3e984b5b_dir\com\bjss\basketTest\itemCalculator$.class[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	com\bjss\basketTest\itemCalculator.class[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\games\gitRepo\BJSS\target\streams\_global\assemblyOption\_global\streams\assembly\730d277e6cd0aeca0a54b9a7212f71df3e984b5b_dir\com\bjss\basketTest\itemCalculator.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	com\bjss\priceBasket\Basket.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\games\gitRepo\BJSS\target\streams\_global\assemblyOption\_global\streams\assembly\730d277e6cd0aeca0a54b9a7212f71df3e984b5b_dir\com\bjss\priceBasket\Basket.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	com\bjss\priceBasket\CheckDiscout.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\games\gitRepo\BJSS\target\streams\_global\assemblyOption\_global\streams\assembly\730d277e6cd0aeca0a54b9a7212f71df3e984b5b_dir\com\bjss\priceBasket\CheckDiscout.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	com\bjss\priceBasket\itemCalculator$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\games\gitRepo\BJSS\target\streams\_global\assemblyOption\_global\streams\assembly\730d277e6cd0aeca0a54b9a7212f71df3e984b5b_dir\com\bjss\priceBasket\itemCalculator$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	com\bjss\priceBasket\itemCalculator.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\games\gitRepo\BJSS\target\streams\_global\assemblyOption\_global\streams\assembly\730d277e6cd0aeca0a54b9a7212f71df3e984b5b_dir\com\bjss\priceBasket\itemCalculator.class[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0m	library.properties[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\games\gitRepo\BJSS\target\streams\_global\assemblyOption\_global\streams\assembly\6dfcaad256fb1f58b62897506f5f85b4c07bcdad_f2e496f21af2d80b48e0a61773f84c3a76a0d06f_da39a3ee5e6b4b0d3255bfef95601890afd80709\library.properties[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0m	rootdoc.txt[0m[0J
