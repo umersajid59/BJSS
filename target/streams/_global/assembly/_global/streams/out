@@ -1,10 +1,10 @@
-[0m[[0m[0mdebug[0m] [0m[0mIncluding: scala-library-2.12.3.jar[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: scala-library-2.12.3.jar[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mMerging files...[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF\MANIFEST.MF' with strategy 'discard'[0m[0J
 [0m[[0m[0minfo[0m] [0m[0mStrategy 'discard' was applied to a file (Run the task at debug level to see details)[0m[0J
-[0m[[0m[0mdebug[0m] [0m[0mSHA-1: 882925bd1d670156e253caea88afee95563ce285[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mSHA-1: 31fe6e5137d3a85bcb105f441481611d53a5b909[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mPackaging C:\games\gitRepo\BJSS\target\scala-2.12\PriceBasket-assembly-0.1.0-SNAPSHOT.jar ...[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0m	com\bjss\basketTest\Basket.class[0m[0J

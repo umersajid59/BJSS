@@ -6,11 +6,11 @@ class CheckDiscout(finalList: Map[String, (Int,Double)], totalPrice: Double) {
     var outString1 = ""
     var totalPrice1 = totalPrice
     //list of discount Items
-    val discounts = List("Apple","Bread")
+    val discounts = List("Apples","Bread")
     //looping through the dictionary and
     //finding items with discount offers
     for( i <- discounts){
-      if(finalList.contains(i) && i == "Apple"){
+      if(finalList.contains(i) && i == "Apples"){
         //applying the 10% discount
         val appleDiscout = finalList(i)._1 *0.1
         //printing the message discount to output message

@@ -8,13 +8,13 @@ class aplicationTest extends AnyFlatSpec {
     val items = new Basket().checkItem(dummyLst)
     assert(items.size == 0)
   }
-  it should "return 4 for items like milk soup bread Apple" in  {
-    val dummyLst = List("milk","soup","bread", "Apple")
+  it should "return 4 for items like milk soup bread Apples" in  {
+    val dummyLst = List("milk","soup","bread", "Apples")
     val items = new Basket().checkItem(dummyLst)
     assert(items.size == 4)
   }
   it should "return 2 for Milk entered two times" in  {
-    val dummyLst = List("milk","Milk","apple")
+    val dummyLst = List("milk","Milk","apples")
     val temp = new Basket()
     val items = temp.checkItem(dummyLst)
     val count = temp.countItems(items)
@@ -22,7 +22,7 @@ class aplicationTest extends AnyFlatSpec {
   }
   it should "total should be 4.10 given bucket" in {
     val out = 4.10
-    val dummyLst = List("milk","apple","apple","bread")
+    val dummyLst = List("milk","apples","apples","bread")
     val temp = new Basket()
     val items = temp.checkItem(dummyLst)
     val count = temp.countItems(items)
@@ -32,9 +32,9 @@ class aplicationTest extends AnyFlatSpec {
     }
     assert(res == out)
   }
-  it should "total should be 3.90 given bucket" in {
+  it should "total should be 3.00 given bucket" in {
     val out = 3.00
-    val count = Map("Apple"->(1,1.0),"Bread"->(1,0.80),"Milk"->(1,1.30))
+    val count = Map("Apples"->(1,1.0),"Bread"->(1,0.80),"Milk"->(1,1.30))
     var total = 0.0
     for(v <- count.values){
       total = total + (v._1 * v._2)
