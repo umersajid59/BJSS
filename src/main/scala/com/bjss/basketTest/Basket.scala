@@ -25,7 +25,7 @@ class Basket {
     //creating mutable Map collection to store final basket data
     var countProduct = Map[String, (Int,Double)]()
     //map items and their prices
-    val products: Map[String,Double] = Map("Soup" ->0.62, "Apples"->1, "Milk"->1.30, "Bread"->0.80)
+    val products: Map[String,Double] = Map("Soup" ->0.65, "Apples"->1, "Milk"->1.30, "Bread"->0.80)
     //mapping a 1 for each item in list
     val items = lst.map(x => (x,1))
     //groupby each item and counting them

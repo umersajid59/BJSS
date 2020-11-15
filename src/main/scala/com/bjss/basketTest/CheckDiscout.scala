@@ -12,7 +12,13 @@ class CheckDiscout(finalList: Map[String, (Int,Double)], totalPrice: Double) {
     for( i <- discounts){
       if(finalList.contains(i) && i == "Apples"){
         //applying the 10% discount
-        val appleDiscout = finalList(i)._1 *0.1
+		var aplCnt = finalList(i)._1
+		var appleDiscout = 0.0
+		while(aplCnt > 0){
+			appleDiscout = appleDiscout + (finalList(i)._2 * 0.1)
+			aplCnt = aplCnt - 1
+		}
+        
         //printing the message discount to output message
         outString1 += f"\nEach Apple Bag 10 percent OFF: $appleDiscout%.2f p"
         //subtracting the discount from total amount

@@ -54,3 +54,7 @@
 1605400817944:test
 1605400839256:run apples bread Milk AppleS
 1605400849304:exit
+1605432928258:run soup soup apples bread apples
+1605433405630:reload
+1605433419320:run apples apples soup soup bread
+1605433453220:exit
